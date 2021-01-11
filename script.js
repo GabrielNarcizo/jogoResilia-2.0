@@ -18,8 +18,6 @@ function msgs(txt){
 function remove(){
     var input = document.getElementById("digitaNome");
     input.style.display = 'none'
-    //var name = document.getElementById("caixa");
-    //name.style.display = 'none';
     var botao = document.getElementById("btn");
     botao.style.display = 'none';
 }
