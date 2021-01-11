@@ -68,14 +68,6 @@ function gameOver(){
     document.body.style.backgroundImage = "url('gameOver.jpg')";
 }
 
-//FUNÇÃO RADIO BUTTON
-
-
-function playMusic() {                         
-    var audio = new Audio('https://sound-effects.bbcrewind.co.uk/search?q=07068063');
-    audio.play();
-}
-
 
 
 //ARRAY DE BOTÕES
