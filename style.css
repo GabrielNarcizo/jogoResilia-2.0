@@ -1,0 +1,91 @@
+body{
+  background-color: rgba(129, 187, 158, 0.533);
+}
+
+.floresta{
+
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+  color: #ffffff;
+
+}
+
+#texto-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #000000;
+    border-width: 2px;
+    border-style:dotted;
+}
+  
+p{
+  width: 50%;
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#digitaNome{
+  
+  margin: 10px;
+  height: 20px;
+  width: 20%;
+}
+
+#caixa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#radioBtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.botao{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+#btn{
+  background: #000000;
+  color: #ffffff;
+  padding: 10px 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+#btn2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(153, 231, 153);
+}
