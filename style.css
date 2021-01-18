@@ -1,5 +1,8 @@
 body{
   background-color: rgba(129, 187, 158, 0.533);
+  background-image: url("./floresta-mágica.jpg"); 
+  background-size: 100%;
+  
 }
 
 .floresta{
@@ -28,8 +31,12 @@ h1{
     border-width: 2px;
     border-style:dotted;
 }
-  
-p{
+
+
+#txt, p{
+  font-family: 'Goldman', cursive;
+  color: white;
+  text-shadow: 2px 2px rgb(0, 0, 0);
   width: 50%;
   text-align: center;
   margin: 30px;
@@ -87,5 +94,14 @@ p{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: rgb(153, 231, 153);
+}
+
+button{
+  background: #000000;
+  color: #ffffff;
+  padding: 10px 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
 }

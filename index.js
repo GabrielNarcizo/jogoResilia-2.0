@@ -1,7 +1,10 @@
 function inicia(){
     
     var nome = document.getElementById("digitaNome").value
-    document.getElementById("caixa").innerHTML = `Jogador: ${nome}`
+    var jogador = document.getElementById("caixa")
+    jogador.innerHTML = `Jogador: ${nome}`
+    jogador.style.color = "yellow"
+    jogador.style.fontSize = "20px"
     document.getElementById("btn").innerHTML = "Start with double click"
 }
 

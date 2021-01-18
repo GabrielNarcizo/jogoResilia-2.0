@@ -3,7 +3,7 @@
 function criarBotao(btn1, funcName1, btn2, funcName2){
     var btn = document.getElementById("btn2");
     btn.innerHTML= `<button onclick = "${funcName1}()">${btn1}</button>
-    <button onclick = "${funcName2}()">${btn2}</button>`
+    <button  onclick = "${funcName2}()">${btn2}</button>`
 }
 
 //MENSAGENS NA TELA
@@ -41,8 +41,6 @@ function win(){
     var venceu = new Image(); 
     venceu.src = "win.jpg";
     document.body.style.backgroundImage = "url('win.jpg')";
-    venceu.style.height = '100%';
-    venceu.style.width = '100%';
 }
 
 //FUNÇÃO PARA RESETAR O LAYOUT
@@ -53,7 +51,7 @@ function resetaLayout(){
     document.body.style.backgroundColor = "rgba(129, 187, 158, 0.533)"
 
     var paragrafo = document.getElementById("txt");
-    paragrafo.style.color = "black";
+    paragrafo.style.color = "";
 }
 
 
@@ -62,9 +60,10 @@ function resetaLayout(){
 //FUNÇÃO GAME OVER
 
 function gameOver(){
-    document.getElementById("txt").style.color = "red";
-    var fim = new Image(); 
-    fim.src = "gameOver.jpg";
+    document.getElementById("txt").style.color = "yellow";
+    // var fim = new Image(); 
+    // fim.src = "gameOver.jpg";
+    //document.body.style.backgroundImage = "url('gameOver.jpg')";
     document.body.style.backgroundImage = "url('gameOver.jpg')";
 }
 
