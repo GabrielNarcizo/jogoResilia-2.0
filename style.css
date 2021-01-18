@@ -20,7 +20,7 @@ h1{
   font-size: 30px;
   margin: 20px;
   color: #ffffff;
-
+  text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 #texto-principal{
@@ -33,7 +33,7 @@ h1{
 }
 
 
-#txt, p{
+#txt{
   font-family: 'Goldman', cursive;
   color: white;
   text-shadow: 2px 2px rgb(0, 0, 0);
@@ -48,6 +48,7 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 #digitaNome{
@@ -55,6 +56,8 @@ h1{
   margin: 10px;
   height: 20px;
   width: 20%;
+  border-radius: 5px;
+  border: none;
 }
 
 #caixa{
@@ -72,6 +75,12 @@ h1{
   align-items: center;
   margin: 15px;
 }
+
+#texto-musica{
+  font-size: 20px;
+  color: yellow;
+}
+
 
 .botao{
   display: flex;

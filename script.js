@@ -20,6 +20,10 @@ function remove(){
     input.style.display = 'none'
     var botao = document.getElementById("btn");
     botao.style.display = 'none';
+    var radio = document.getElementById("rb");
+    radio.style.display = 'none'
+    var textoMusica = document.getElementById("texto-musica");
+    textoMusica.innerHTML = ""
 }
 
 //FUNÇÃO PARA FECHAR O GAME

@@ -68,7 +68,7 @@ function entregaMoedas(){
 }
 
 function contaHistoria(){
-    msgs (`Você tem duas opções de história.<br><br>A história de um jovem chamado Guerra que destruiu a humanidade.<br>A história de um lobo chamado Fome que devorou a humanidade.`)
+    msgs (`Você tem duas opções de história.<br><br>A história de um jovem chamado Guerra que destruiu a humanidade.<br><br>A história de um lobo chamado Fome que devorou a humanidade.`)
     criarBotao(...btns[6])
     resetaLayout();
 }
